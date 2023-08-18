@@ -1,0 +1,153 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay"
+            ],
+            "responses": [
+                "Hello, how can I help you today?",
+                "Hi, how can I help you today?",
+                "Hi there, how can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I'm Sammy, your close price bot pedictor, how can I help you today?",
+                "I'm Sammy, an Artificial Intelligent bot that is capable of predicting stock close, how can I help you today?"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Sammy, how can I help you today?",
+                "I'm Sammy!, how can I help you today",
+                "Just call me as Sammy, how can I help you today"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Yes Sure, How can I help you?"
+            ]
+        },
+        {
+            "tag": "The closing price",
+            "patterns": [
+                "What is the predicted close price for {stock_symbol} on {date}?",
+                "What is the forecasted close price for {stock_symbol} on {date}?",
+                "What is the projected closing price of {stock_symbol} on {date}?",
+                "What is the expected closing price of {stock_symbol} on {date}?",
+                "What is the forecast for the closing price of {stock_symbol} on {date}?",
+                "What is the predicted value of {stock_symbol} at the close of trading on {date}?",
+                "What is the estimated closing price of {stock_symbol} on {date}?",
+                "What is the most likely closing price of {stock_symbol} on {date}?",
+                "What is the consensus closing price of {stock_symbol} on {date}?",
+                "What is the best guess for the closing price of {stock_symbol} on {date}?",
+                "What is the likely closing price of {stock_symbol} on {date}?",
+                "What is the projected value of {stock_symbol} at the end of the trading day on {date}?",
+                "What is the consensus estimate for the closing price of {stock_symbol} on {date}?",
+                "What is the market's expectation for the closing price of {stock_symbol} on {date}?",
+                "What is the most likely scenario for the closing price of {stock_symbol} on {date}?",
+                "What is the best guess for the closing price of {stock_symbol} on {date}, given the current market conditions?",
+                "What is the most likely price that {stock_symbol} will close at on {date}?",
+                "What is the price that {stock_symbol} is most likely to close at on {date}, based on historical data and current market conditions?",
+                "What is the price that {stock_symbol} is most likely to close at on {date}, according to my financial advisor?",
+                "What is the closing price forecast for {stock_symbol} on {date}?",
+                "What is the closing price outlook for {stock_symbol} on {date}?",
+                "What is the closing price prediction for {stock_symbol} on {date}?",
+                "What is the closing price projection for {stock_symbol} on {date}?",
+                "What is the closing price estimate for {stock_symbol} on {date}?",
+                "What is the closing price expectation for {stock_symbol} on {date}?",
+                "What is the closing price guess for {stock_symbol} on {date}?",
+                "What is the closing price anticipation for {stock_symbol} on {date}?",
+                "What is the closing price speculation for {stock_symbol} on {date}?",
+                "Predicted close price for {stock_symbol} on {date}?",
+                "Tell me the predicted close price of {stock_symbol} on {date}",
+                "Predicted close price of {stock_symbol} on {date}",
+                "Forecasted close price for {stock_symbol} on {date}",
+                "Projected closing price of {stock_symbol} on {date}",
+                "Expected closing price of {stock_symbol} on {date}",
+                "Forecast for the closing price of {stock_symbol} on {date}",
+                "Predicted value of {stock_symbol} at the close of trading on {date}",
+                "Estimated closing price of {stock_symbol} on {date}",
+                "Most likely closing price of {stock_symbol} on {date}",
+                "Consensus closing price of {stock_symbol} on {date}",
+                "Best guess for the closing price of {stock_symbol} on {date}",
+                "Likely closing price of {stock_symbol} on {date}",
+                "Projected value of {stock_symbol} at the end of the trading day on {date}",
+                "Consensus estimate for the closing price of {stock_symbol} on {date}",
+                "Market's expectation for the closing price of {stock_symbol} on {date}",
+                "Most likely scenario for the closing price of {stock_symbol} on {date}",
+                "Best guess for the closing price of {stock_symbol} on {date}, given the current market conditions",
+                "Most likely price that {stock_symbol} will close at on {date}",
+                "Price that {stock_symbol} is most likely to close at on {date}, based on historical data and current market conditions",
+                "Price that {stock_symbol} is most likely to close at on {date}, according to my financial advisor",
+                "Closing price forecast for {stock_symbol} on {date}",
+                "Closing price outlook for {stock_symbol} on {date}",
+                "Closing price prediction for {stock_symbol} on {date}",
+                "Closing price projection for {stock_symbol} on {date}",
+                "Closing price estimate for {stock_symbol} on {date}",
+                "Closing price expectation for {stock_symbol} on {date}",
+                "Closing price guess for {stock_symbol} on {date}",
+                "Closing price anticipation for {stock_symbol} on {date}",
+                "Closing price speculation for {stock_symbol} on {date}"
+            ],
+            "responses": [
+                "The closing price prediction for {stock_symbol} on {date} is {predicted_close}. Please note that this prediction is based on historical data and market trends and may not be entirely accurate. Stock prices can be volatile and subject to various factors, so it's essential to consider this information as a reference and consult with a financial advisor for informed investment decisions."
+            ]
+        }
+    ]
+}
